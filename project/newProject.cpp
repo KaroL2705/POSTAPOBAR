@@ -41,7 +41,7 @@ void glowna() {
 
 void plikTXTmenu() {
     ifstream file;
-    file.open("menu.txt");
+    file.open("project/menu.txt");
 
     string line;
     while (file.good()) {
@@ -104,7 +104,7 @@ void zlozZamowienie() {
 
     do {
         plikTXTmenu();
-        ifstream inputfile("cennik1.txt");
+        ifstream inputfile("project/cennik1.txt");
 
         if (!inputfile.is_open())
             cout << "Error opening file";
@@ -287,7 +287,7 @@ void zlozZamowienie() {
         }
     }
 
-    ofstream myFile("paragon.txt");
+    ofstream myFile("project/paragon.txt");
     if (orderMethod == 2) {
         if (myFile.is_open()) {
             myFile << "Adress: Wzgórze Apokalipsy 62-420 ul. Apokaliptyczna 16" << endl << "Własciciel: Jack Steel"
