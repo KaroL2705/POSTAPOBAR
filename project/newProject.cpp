@@ -51,7 +51,7 @@ void plikTXTmenu() {
     }
     file.close();
     {
-        /* code */
+
     }
 
 }
