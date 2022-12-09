@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/POSTAPOBAR.iml" filepath="$PROJECT_DIR$/.idea/POSTAPOBAR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PostApoBar.iml" filepath="$PROJECT_DIR$/.idea/PostApoBar.iml" />
     </modules>
   </component>
 </project>
