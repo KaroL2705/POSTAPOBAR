@@ -1,9 +1,0 @@
-Adress: Wzgórze Apokalipsy 62-420 ul. Apokaliptyczna 168
-Własciciel: Jack Steel
-Otwarte 8-23
-Imie: Karol
-Adres dostawy: 
- Godzina dostarczenia: 12
-------PARAGON_FISKALNY------
-Hamburger  1x35.99  35.99 zl
-Całkowita cena: 50.99 zl
