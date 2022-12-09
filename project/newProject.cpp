@@ -77,18 +77,19 @@ void zlozZamowienie() {
         totalPrice += 15;
         cout << "Podaj o, ktorej godzinie chcesz aby dowiezc twoje zamowienie" << endl;
         cin >> hour;
-        cout << "PODAJ ADRES DOSTAWY" << endl;
-        cout << " ulica: ";
-        cin >> address;
-        cout << "numer domu: ";
-        cin >> houseNum;
-
 
         while (hour < 8 || hour > 23) {
             cout << "RESTAURACJA W TYCH GODZINACH JEST ZAMKNIETA" << endl;
             cout << "PODAJ POPRAWNA GODZINE" << endl;
             cin >> hour;
         }
+
+        cout << "PODAJ ADRES DOSTAWY" << endl;
+        cout << " ulica: ";
+        cin >> address;
+        cout << "numer domu: ";
+        cin >> houseNum;
+
 
     } else if (orderMethod == 2) {
         cout << "WYBRALES: NA MIEJSCU" << endl;
@@ -167,6 +168,7 @@ void zlozZamowienie() {
         totalPrice += chart[a].portionPrice;
     }
     cout << "Do zaplaty: " << totalPrice << endl;
+    cout << "Godzina dostawy: " << hour << endl;
 
     cout << "Jesli chcesz zlozyc zamowienie kliknij 0" << endl;
     cout << "Jesli chcesz edytowac zamowienie kliknj 1" << endl;
@@ -233,6 +235,7 @@ void zlozZamowienie() {
                 }
             }
             cout << "Calkowita cena: " << totalPrice << endl;
+            cout << "Godzina dostawy: " << hour << endl;
         } else if (orderMethod == 2) {
             cout << "---ZAMOWIENIE---" << endl;
             for (int y = 0; y < z; y++) {
@@ -332,6 +335,7 @@ void zlozZamowienie() {
     myFile.close();
     std::cin.get();
 
+    exit(0);
 }
 
 void informacje() {

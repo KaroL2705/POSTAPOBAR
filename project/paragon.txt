@@ -3,7 +3,8 @@ Własciciel: Jack Steel
 Otwarte 8-23
 Imie: Karol
 Adres dostawy: koscielna 12
- Godzina dostarczenia: 12
+ Godzina dostarczenia: 23
 ------PARAGON_FISKALNY------
-Łosos w panierce  2x65.37  130.74 zl
-Całkowita cena: 181.73 zl
+Hamburger  1x35.99  35.99 zl
+Vege Burger  2x38.57  77.14 zl
+Całkowita cena: 128.13 zl
