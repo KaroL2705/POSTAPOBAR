@@ -51,7 +51,6 @@ void plikTXTmenu() {
     }
     file.close();
     {
-        /* code */
     }
 
 }
@@ -168,7 +167,9 @@ void zlozZamowienie() {
         totalPrice += chart[a].portionPrice;
     }
     cout << "Do zaplaty: " << totalPrice << endl;
-    cout << "Godzina dostawy: " << hour << endl;
+    if (orderMethod == 1){
+        cout << "Godzina dostawy: " << hour << endl;
+    }
 
     cout << "Jesli chcesz zlozyc zamowienie kliknij 0" << endl;
     cout << "Jesli chcesz edytowac zamowienie kliknj 1" << endl;
@@ -235,7 +236,9 @@ void zlozZamowienie() {
                 }
             }
             cout << "Calkowita cena: " << totalPrice << endl;
-            cout << "Godzina dostawy: " << hour << endl;
+            if (orderMethod == 1){
+                cout << "Godzina dostawy: " << hour << endl;
+            }
         } else if (orderMethod == 2) {
             cout << "---ZAMOWIENIE---" << endl;
             for (int y = 0; y < z; y++) {
