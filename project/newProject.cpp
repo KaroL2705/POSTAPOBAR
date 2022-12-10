@@ -2,6 +2,8 @@
 #include <fstream>
 #include <string>
 #include <sstream>
+#include <cstdlib>
+#include <limits>
 
 using namespace std;
 
@@ -37,6 +39,8 @@ void glowna() {
     cout << "1.MENU" << endl << "2.ZLOZ ZAMOWIENIE" << endl << "3.INFORMACJE O RESTAURACJI" << endl << "4.ZAKONCZ"
          << endl;
     cin >> menu;
+    cin.clear();
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
 }
 
 void plikTXTmenu() {
